@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+:root {
+  --header-blue: #404e63;
+  --h1-blue: #094c68;
+  --h3-blue: #88bac2;
+  --paragraph-blue: #356d84;
+}
+
+
+h1 {
+  font-weight: 900;
+}
+
+a,
+a:active,
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+/* hero  */
+main #hero {
+  height: max-content;
+  background-size: cover;
+  background-image: url('../img/bg_2.jpg');
+  animation: animatedBackground 15s ease-in-out infinite;
+  background-position: center;
+}
+
+@keyframes animatedBackground {
+  20% {
+    background-image: url(../img/bg_1.jpg);
+  }
+
+  40% {
+    background-image: url(../img/bg_2.jpg);
+  }
+
+  60% {
+    background-image: url(../img/bg_3.jpg);
+  }
+
+  80% {
+    background-image: url(../img/bg_4.jpg);
+  }
+}
+
+#hero-div {
+  max-width: 36rem;
+}
+
+#hero #neomorph-box {
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem 1rem;
+  background: rgba(9, 76, 104, 0.9);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#hero #neomorph-box #hero-div h1 {
+  font-weight: 600;
+  color: #2da44e;
+}
+
+#hero #neomorph-box #hero-div h5,
+p {
+  color: white;
+}
+
+#hero #neomorph-box #hero-div a {
+  background-color: #A4DBA8;
+  color: #094c68;
+}
+
+/* information bar/ */
+
+.info-bar {
+  background-color: #094c68;
+  color: white;
+}
+
+
+.info-bar i {
+  color: #04aa6d;
+}
+
+/* services   */
+.services {
+  color: #7db0ba;
+  background: #165570;
+}
+
+.services .card {
+  color: #094c68;
+}
+
+.services .card .btn {
+  background-color: #A4DBA8;
+  color: #094c68;
+  border: none;
+}
+
+
+/* about us */
+#aboutUs {
+  background-color: #08425a;
+}
+
+#aboutUs .neomorph-box {
+  border-radius: 7px;
+  background: #7db0ba;
+  box-shadow: 0px 0px 15px #c8ffff, 0px 0px 15px #c8ffff;
+}
+
+#address .container .row .col-sm-3 {
+  padding: 1em;
+  height: 15rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutUs img {
+  width: 20rem;
+  box-shadow: 0px 0px 15px #c8ffff, 0px 0px 15px #c8ffff;
+}
+
+#aboutUs h3 {
+  color: #165570;
+}
+
+.customers {
+  background-color: #165570;
+  color: #88bac2;
+}
+
+#customers .clients div {
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#customers .clients div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+
+
+.address .containers {
+  background-color: #08425a;
+
+  color: white;
+}
+
+.address .containers i {
+  color: #04aa6d;
+}
+
+
+.contactUs {
+  background-color: #e2eef1;
+  color: #136ba0;
+}
+
+
+.contactUs .btn {
+  background-color: #A4DBA8;
+}
+
+.contactUs .input-group-text {
+  background-color: #A4DBA8;
+}
+
+footer {
+  background-color: #084D68;
+
+  color: #a9e3e7;
+}
